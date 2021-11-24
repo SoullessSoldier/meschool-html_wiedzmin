@@ -1,0 +1,32 @@
+.tabs__control{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 22px;
+    margin-left: auto;
+    max-width: 285px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 12px;    
+}
+
+.tabs__btn{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    background-color: transparent;
+    border-width: 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;        
+}
+
+.tabs__btn_active {
+    border-bottom: 2px solid #fff;
+}
+
+.tabs__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
