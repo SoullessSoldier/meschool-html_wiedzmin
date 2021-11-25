@@ -19,7 +19,8 @@ body{
     background-image: linear-gradient(181.78deg, rgba(0, 0, 0, 0) 49.38%, rgba(0, 0, 0, 0.42) 98.49%),
         url(../img/bg.jpg);
     background-repeat: no-repeat;
-    
+    background-position: center;
+    background-size: cover;    
 }
 
 img{
@@ -55,4 +56,13 @@ iframe{
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-height: 900px){
+    .page{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        max-height: 1400px;
+    }
 }
