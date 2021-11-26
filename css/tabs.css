@@ -49,7 +49,7 @@
 @media (max-width: 850px){
     .tabs__control{
         padding: 16px 46px;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
     .tabs__content{
         flex-wrap: wrap;
@@ -69,7 +69,7 @@
     .tabs__control{
         margin-left: 0;
         margin-right: auto;
-        max-width: 290px;
+        max-width: 220px;
         padding: 10px 30px;
         margin-bottom: 20px;
     }
@@ -79,7 +79,7 @@
     .tabs__control{
         max-width: 220px;
         padding: 10px 30px;        
-        margin: 0 auto 20px;
+        margin-bottom: 10px;
         
     }
 }

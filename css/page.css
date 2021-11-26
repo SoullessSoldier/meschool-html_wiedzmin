@@ -60,6 +60,20 @@ iframe{
 
 }
 
+.page::before{
+    content: '';
+    position: absolute;
+    right: 96px;
+    bottom: 0;
+    height: calc(100% - 115px);
+    width: 100%;
+    background-image: url(../img/witcher.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    z-index: -1;
+}
+
 @media (min-height: 900px){
     .page{
         display: flex;
@@ -73,11 +87,26 @@ iframe{
     body{
         font-size: 16px;
     }
+    .page::before{
+        right: 0;
+        height: calc(100% - 90px);
+    }
 }
 
 @media (max-width: 850px){
     .container{
         padding: 0 39px;
+    }
+    .page::before{
+        top: 109px;
+        bottom: auto;
+        height: 448px;
+    }
+}
+
+@media (max-width: 650px){
+    .container{
+        padding: 0 25px;
     }
 }
 
@@ -87,6 +116,10 @@ iframe{
     }
     .container{
         padding: 0 15px;
+    }
+    .page::before{
+        top: 49px;
+        height: 258px;
     }
 }
 

@@ -32,7 +32,14 @@
     margin-bottom: 30px;
 }
 
+.page{
+    position: relative;
+}
+
+
+
 @media (min-height: 900px){
+    
     .present{
         flex-grow: 1;
         display: flex;
@@ -52,6 +59,7 @@
 @media (max-width: 1000px){
     .present{
         padding-top: 25px;
+        padding-bottom: 10px;
     }
     .present__hero{
         margin-bottom: 10px;        
@@ -71,7 +79,7 @@
 }
 @media (max-width: 850px){
     .present{
-        padding-top: 58px;
+        padding-top: 58px;        
     }
     .present__hero{
         margin-bottom: 0px;        
@@ -91,6 +99,19 @@
     .present__hero{
         margin-bottom: 30px;        
     }
+    .present__title{
+        font-size: 50px;
+        margin-bottom: 6px;
+    }
+    .present__tagline{
+        max-width: 260px;
+        font-size: 16px;
+        margin-bottom: 23px;
+    }
+    .present__btn{
+        width: 290px;
+        height: 63px;
+    }
     .present__tabs{
         margin-top: 0px;
     }
@@ -102,15 +123,19 @@
     }    
     .present__title{
         font-size: 40px;
-        margin-bottom: 6px;
     }
     .present__tagline{
         max-width: 193px;
         font-size: 12px;
-        margin-bottom: 23px;
     }    
     .present__btn{
         width: 290px;
         height: 63px;
+    }    
+}
+
+@media (max-width: 320px){
+    .tabs__control{
+        margin-top: 0 auto 20px;
     }
 }
