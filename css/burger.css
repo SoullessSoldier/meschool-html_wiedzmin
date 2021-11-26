@@ -14,6 +14,7 @@
 .burger__line{
     position: absolute;
     left: 0;
+    right: 0;
     top: 50%;
     width: 100%;
     height: var(--size);
@@ -27,6 +28,7 @@
     content: '';
     position: absolute;
     left: 0;
+    right: 0;
     width: 100%;
     height: var(--size);
     background-color: var(--color);    

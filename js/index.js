@@ -1,4 +1,6 @@
 'use strict';
 import burgerMenu from "./burger.js";
 
-burgerMenu('.burger', '.navigation__list', 'burger_active', 'navigation__list_active');
+burgerMenu({ 
+    selectorMenu: '.navigation__list', 
+    openMenuSelector: 'navigation__list_active'});
